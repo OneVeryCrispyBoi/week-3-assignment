@@ -12,7 +12,7 @@
 let limit = 0;
 let pattern1 = " # # # #";
 let pattern2 = "# # # # ";
-for (let index = 1; index <= limit; index++) {
+for (let i = 1; i <= limit; i++) {
     if (index % 2 == 0) {
         console.log(pattern2);
     } else {
