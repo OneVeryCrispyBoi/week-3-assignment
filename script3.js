@@ -9,3 +9,14 @@
 //  # # # #
 // # # # #
 //  # # # #
+let limit = 0;
+let pattern1 = " # # # #";
+let pattern2 = "# # # # ";
+for (let index = 1; index <= limit; index++) {
+    if (index % 2 == 0) {
+        console.log(pattern2);
+    } else {
+        console.log(pattern1)
+    }
+    
+}
